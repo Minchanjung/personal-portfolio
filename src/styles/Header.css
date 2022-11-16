@@ -1,0 +1,47 @@
+.headerContainer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px 15px 20px;
+}
+
+.logoName {
+    font-size: 25px;
+}
+
+.headerLinks {
+    list-style: none;
+}
+
+.headerLinks li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.burgerMenu {
+    display: none;
+}
+
+.burgerMenu div {
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 4px;
+}
+
+.burgerLinks {
+    display: none;
+    list-style: none;
+}
+
+@media (max-width: 600px) {
+    .headerLinks {
+        display: none;
+    }
+
+    .burgerMenu {
+        display: block;
+    }
+}
