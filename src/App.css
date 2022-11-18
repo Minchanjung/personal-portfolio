@@ -7,4 +7,10 @@
 :root {
   --color-bg: white;
   --color-primary: rgb(70, 175, 255);
+  --primary-font: rgb(45, 45, 45);
+}
+
+.contentMargins {
+  margin-inline: auto;
+  width: min(80%, 60rem);
 }
