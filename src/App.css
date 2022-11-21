@@ -12,5 +12,5 @@
 
 .contentMargins {
   margin-inline: auto;
-  width: min(80%, 60rem);
+  width: min(75%, 60rem);
 }
