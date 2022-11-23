@@ -21,7 +21,7 @@ const Projects = () => {
                         description={project.description}
                         liveSite={project.siteLink}
                         git={project.gitLink}
-                        direction={index % 2 === 0 ? "right": "left"}
+                        direction={index % 2 === 0 ? "Right": "Left"}
                     />
                 ))}
             </div>
@@ -32,10 +32,10 @@ const Projects = () => {
 const ProjectCard = ({imgSrc, title, description, liveSite, git, direction}) => {
     return (
         <div className="projectCardContainer">
-            <div className="cardImgContainer">
+            <div className={`cardImgContainer${direction}`}>
                 <img className="cardImg" src={imgSrc} alt=""></img>
             </div>
-            <div className="cardContentContainer">
+            <div className={`cardContentContainer${direction}`}>
                 <h3 className="projectTitle">{title}</h3>
                 <div className="projectDesc">
                     <p>{description}</p>
