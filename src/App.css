@@ -4,6 +4,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --color-bg: white;
   --color-primary: rgb(70, 175, 255);
@@ -14,3 +18,22 @@
   margin-inline: auto;
   width: min(75%, 60rem);
 }
+
+.sectionHeader {
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--primary-font);
+  margin-bottom: 5rem;
+}
+
+.sectionHeader span {
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--primary-font);
+}
+
+a { text-decoration: none; color:#000; }
+a:visited { text-decoration: none; color:#000; }
+a:hover { text-decoration: none; color:#000; }
+a:focus { text-decoration: none; color:#000; }
+a:hover, a:active { text-decoration: none; color:#000; }

@@ -23,9 +23,9 @@ const Header = () => {
                 </div>
                 <div className="headerRight">
                     <ul className="headerLinks">
-                        <li className="headerLink1">Projects</li>
-                        <li classsName="headerLink2">Posts</li>
-                        <li className="headerLink3">About</li>
+                        <li className="headerLink1"><a href="#section1">About</a></li>
+                        <li className="headerLink2"><a href="#section2">Projects</a></li>
+                        <li className="headerLink3"><a href="#section3">Contact</a></li>
                     </ul>
 
                     <div className="burgerMenu" onClick={toggle}>

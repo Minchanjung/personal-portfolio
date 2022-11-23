@@ -1,0 +1,83 @@
+.projectsContainer {
+    padding: 5rem 0 5rem 0;
+}
+
+/* ProjectCard styling */
+
+.projectCardContainer {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.cardImgContainer {
+    grid-column: 1 / 8;
+    grid-row: 1 / -1;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cardImg {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    border-radius: 3px;
+}
+
+.cardContentContainer {
+    position: relative;
+    grid-Column: 7 / -1;
+    grid-row: 1 / -1;
+    z-index: 2;
+    align-self: center;
+    background-color: var(--primary-font);
+    color: white;
+    padding: 2rem;
+    text-align: end;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 3px;
+}
+
+.projectTitle {
+    padding-bottom: 1rem;
+}
+
+.projectDesc p {
+    font-size: 1rem;
+    line-height: 1.8;
+    font-weight: 300;
+}
+
+.projectLinks {
+    margin-top: 1rem;
+}
+
+.gitBtn {
+    margin-right: 1rem;
+}
+
+.gitBtn svg, .liveSiteBtn svg {
+    width: 25px;
+    height: auto;
+    color: white;
+}
+
+@media (max-width: 700px) {
+    .projectCardContainer {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        height: 100%
+    }
+
+    .cardImgContainer {
+        grid-column: 1 / -1;
+        grid-row: 1 / 3;
+    }
+
+    .cardContentContainer {
+        grid-column: 1 / -1;
+        grid-row: 3 / 4;
+    }
+}

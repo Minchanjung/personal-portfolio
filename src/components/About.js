@@ -20,8 +20,8 @@ const skills = [
 
 const About = () => {
     return (
-        <div className="aboutContainer">
-            <h2 className="aboutMeHeader"><span>01.</span>About Me</h2>
+        <div className="aboutContainer" id="section1">
+            <h2 className="sectionHeader"><span>01.</span>About Me</h2>
             <div className="splitAbout">
                 <div className="aboutMeContentContainer">
                     <div className="aboutMeContent"><span>Hello!</span> My name is Minchan and I'm a web developer with a passion for front end development and design.</div>
@@ -33,11 +33,7 @@ const About = () => {
                     <p className="aboutMeContent3">
                         I have had the oppurtunity to work with clients and make their digital vision come true by making accessible and inclusive digital products. 
                         I am constantly striving to improve myself in the rapidly changing field that is web development.
-
                     </p>
-                </div>
-                <div className="aboutMeImageContainer">
-
                 </div>
             </div>
             <div className="technologiesContainer">

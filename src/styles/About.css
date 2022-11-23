@@ -1,18 +1,6 @@
 .aboutContainer {
     padding: 5rem 0 5rem 0;
-}
-
-.aboutMeHeader {
-    font-size: 30px;
-    font-weight: 500;
-    color: var(--primary-font);
-    margin-bottom: 5rem;
-}
-
-.aboutMeHeader span {
-    font-size: 20px;
-    font-weight: 300;
-    color: var(--primary-font);
+    border-bottom: 1px solid var(--primary-font);
 }
 
 .splitAbout {
@@ -38,42 +26,12 @@
     color: var(--primary-font);
 }
 
-.technologiesContainer {
-    
-}
-
 .technologiesHeader {
     color: var(--primary-font);
     font-size: 25px;
     font-weight: 500;
     padding: 5rem 0 5rem 0;
 }
-
-/*.iconsContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 100px
-}
-
-.icon {
-    justify-self: center;
-    align-self: center;
-}
-
-.iconImg {
-    width: 50px;
-    object-fit: contain;
-}
-
-@media (max-width: 700px) {
-    .aboutContainer {
-        flex-direction: column;
-    }
-
-    .technologiesContainer {
-        flex-direction: column;
-    }
-}*/
 
 .carouselContainer {
     display: flex;

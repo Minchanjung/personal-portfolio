@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Graphic from "./components/Graphic";
 import About from "./components/About";
 import Socials from "./components/Socials";
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <div className="contentMargins">
         <Graphic />
         <About />
+        <Projects />
       </div>
       
     </div>

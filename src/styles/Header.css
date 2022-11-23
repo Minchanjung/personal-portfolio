@@ -1,6 +1,6 @@
 .headerContainer {
-    background-color: black;
-    color: white;
+    background-color: transparent;
+    color: var(--primary-font);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,7 +27,7 @@
 .burgerMenu div {
     width: 20px;
     height: 3px;
-    background-color: white;
+    background-color: black;
     margin-bottom: 4px;
 }
 
