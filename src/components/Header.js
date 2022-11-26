@@ -39,7 +39,7 @@ const Header = () => {
 
             <ul ref={popupRef} className="burgerLinks" style={{display:'none'}}>
                 <li className="burgerLink1">Projects</li>
-                <li classsName="burgerLink2">Posts</li>
+                <li className="burgerLink2">Posts</li>
                 <li className="burgerLink3">About</li>
             </ul>
         </div>

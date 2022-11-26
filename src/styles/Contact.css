@@ -1,0 +1,48 @@
+.contactInfo {
+    max-width: 40rem;
+    font-size: 1.05rem;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: end;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.form {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    width: 26em;
+}
+
+.formName, .formEmail {
+    padding: 5px;
+    border: 1px solid var(--primary-font);
+    outline: none;
+}
+
+.formMessage {
+    outline: none;
+    resize: none;
+    padding: 5px;
+    border: 1px solid var(--primary-font);
+}
+
+.formSubmit {
+    background-color: transparent;
+    align-self: flex-start;
+    border: none;
+    font-size: 17px;
+    font-weight: 300;
+    padding-inline: 10px;
+    border-radius: 3px;
+    color: var(--primary-font);
+    border: 1px solid var(--primary-font)
+}
+
+.formSubmit:hover {
+    cursor: pointer;
+    background-color: rgb(238, 238, 238);
+}

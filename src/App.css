@@ -37,3 +37,10 @@ a:visited { text-decoration: none; color:#000; }
 a:hover { text-decoration: none; color:#000; }
 a:focus { text-decoration: none; color:#000; }
 a:hover, a:active { text-decoration: none; color:#000; }
+
+.copyRightContainer {
+  bottom: 0;
+  text-align: center;
+  font-size: 10px;
+  margin-bottom: 5px;
+}
